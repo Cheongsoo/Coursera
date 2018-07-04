@@ -1,1 +1,1 @@
-Johns Hopkins University Course 2
+Johns Hopkins University Speicialization
