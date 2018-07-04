@@ -13,7 +13,7 @@ complete <- function(directory, id = 1:322) {
         data <- data.frame(id = numeric(z), nobs = numeric(z))
         for (i in seq_along(id)) {
                 found_id <- read.csv(files_list[id[i]])
-                data$id[i] <- id[i]
+                data$id[i] <- i
                 data$nobs[i] <- sum(complete.cases(found_id))
         }
         data
